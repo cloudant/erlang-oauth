@@ -1,8 +1,9 @@
 {application, oauth, [
-  {description, "Erlang OAuth implementation"},
-  {vsn, "CouchDB-1.0.3"},
+  {description, "An Erlang OAuth 1.0 implementation"},
+  {vsn, "1.0.1"},
   {modules, [
     oauth,
+    oauth_client,
     oauth_hmac_sha1,
     oauth_http,
     oauth_plaintext,
